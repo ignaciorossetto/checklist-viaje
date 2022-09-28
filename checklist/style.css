@@ -1,0 +1,65 @@
+.formHeight{
+    height:75px
+}
+
+footer{
+    height:150px;
+    margin-top: 100px;
+    border-top: solid white;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    box-shadow: 0px 0px 131px 15px rgba(0,0,0,0.57);
+-webkit-box-shadow: 0px 0px 131px 15px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 0px 131px 15px rgba(0,0,0,0.57);
+}
+
+footer section{
+    width:33%;
+}
+
+footer .center {
+    font-size:larger;
+    font-weight:bold;
+
+}
+
+#tableBody tr td{
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+
+header nav{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)!important;
+    border-bottom: solid white;
+    box-shadow: 0px 0px 131px 15px rgba(0,0,0,0.57);
+-webkit-box-shadow: 0px 0px 131px 15px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 0px 131px 15px rgba(0,0,0,0.57);
+
+}
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)!important;
+
+}
+
+
+main{
+    min-height:71%;
+    max-height: auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+}
+.tableContainer div{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Hr{
+    border: solid 5px black;
+}
